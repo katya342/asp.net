@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\progi\\c#\\less\\less\\less.csproj": {}
+    "C:\\asp.net_remote\\asp.net\\firstless\\less\\less.csproj": {}
   },
   "projects": {
-    "C:\\progi\\c#\\less\\less\\less.csproj": {
+    "C:\\asp.net_remote\\asp.net\\firstless\\less\\less.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\progi\\c#\\less\\less\\less.csproj",
+        "projectUniqueName": "C:\\asp.net_remote\\asp.net\\firstless\\less\\less.csproj",
         "projectName": "less",
-        "projectPath": "C:\\progi\\c#\\less\\less\\less.csproj",
+        "projectPath": "C:\\asp.net_remote\\asp.net\\firstless\\less\\less.csproj",
         "packagesPath": "C:\\Users\\bezve\\.nuget\\packages\\",
-        "outputPath": "C:\\progi\\c#\\less\\less\\obj\\",
+        "outputPath": "C:\\asp.net_remote\\asp.net\\firstless\\less\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bezve\\AppData\\Roaming\\NuGet\\NuGet.Config",
