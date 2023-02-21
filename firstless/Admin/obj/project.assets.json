@@ -1,11 +1,29 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "asp.Lib/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/asp.Lib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/asp.Lib.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "asp.Lib/1.0.0": {
+      "type": "project",
+      "path": "../asp.Lib/asp.Lib.csproj",
+      "msbuildProject": "../asp.Lib/asp.Lib.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "asp.Lib >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\bezve\\.nuget\\packages\\": {}
@@ -33,7 +51,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\asp.net_remote\\asp.net\\firstless\\asp.Lib\\asp.Lib.csproj": {
+              "projectPath": "C:\\asp.net_remote\\asp.net\\firstless\\asp.Lib\\asp.Lib.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

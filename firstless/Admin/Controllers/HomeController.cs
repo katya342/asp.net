@@ -12,11 +12,18 @@ namespace Admin.Controllers
         {
             _logger = logger;
         }
-
+        public JsonResult GetSSomeData()
+        {
+            var data = new List<string>() { "01", "02" };
+            return Json(data);
+        }
         public IActionResult Index()
         {
+            ViewBag.CurrentDate = DateTime.Now;
+            TempData["CurrentDate"] = DateTime.Now;
             return View();
         }
+        
 
         public IActionResult Privacy()
         {

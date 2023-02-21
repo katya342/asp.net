@@ -27,7 +27,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\asp.net_remote\\asp.net\\firstless\\asp.Lib\\asp.Lib.csproj": {
+                "projectPath": "C:\\asp.net_remote\\asp.net\\firstless\\asp.Lib\\asp.Lib.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -60,6 +64,21 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "C:\\asp.net_remote\\asp.net\\firstless\\asp.Lib\\asp.Lib.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\asp.net_remote\\asp.net\\firstless\\asp.Lib\\asp.Lib.csproj",
+        "projectName": "asp.Lib",
+        "projectPath": "C:\\asp.net_remote\\asp.net\\firstless\\asp.Lib\\asp.Lib.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
       }
     }
   }

@@ -6,4 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\asp.Lib\asp.Lib.csproj" />
+  </ItemGroup>
+
 </Project>
